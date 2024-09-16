@@ -1,0 +1,23 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hardik",
+  "license": "ISC",
+  "description": "A web scraper using Puppeteer and TypeScript",
+  "dependencies": {
+    "@types/puppeteer": "^5.4.7",
+    "puppeteer": "^23.2.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
